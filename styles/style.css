@@ -198,3 +198,41 @@ padding-top: 20px;
 padding-bottom: 60px;
 margin-bottom: 60px;
 }
+
+
+/* ----------------------------
+         midea Query 
+------------------------------- */
+
+@media only screen and (max-width:688px) {
+
+    .container{
+        width:100%;
+    }
+    .container h2{
+        font-size: 40px;
+    }
+    .player img{
+        width: 100px;
+    }
+    .player h3{
+        font-size: 20px;
+    }
+    .blog{
+        flex-direction: column;
+    }
+    .blog img{
+        width: 100%;
+    }
+    .blog h3{
+        font-size: 20px;
+        text-align: justify;
+        text-align: center;
+    }
+    .courses{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-row-gap: 60px;
+     }
+
+}
