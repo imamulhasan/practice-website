@@ -205,6 +205,14 @@ margin-bottom: 60px;
 ------------------------------- */
 
 @media only screen and (max-width:688px) {
+    
+   .nav-list{
+        justify-content: space-evenly;
+    }
+    .nav-icon{
+        flex-direction: column;
+        justify-content: center;
+    }
 
     .container{
         width:100%;
@@ -217,6 +225,9 @@ margin-bottom: 60px;
     }
     .player h3{
         font-size: 20px;
+    }
+    hr{
+        width: 80%;
     }
     .blog{
         flex-direction: column;
@@ -235,12 +246,18 @@ margin-bottom: 60px;
         grid-row-gap: 60px;
      }
      .course{
-         width: 400px;
-     }
+        width: 400px;
+    } 
 
 }
 @media only screen and (max-width:640px) {
-
+    .nav-list{
+        justify-content: space-evenly;
+    }
+    .nav-icon{
+        flex-direction: column;
+        justify-content: center;
+    }
     .container{
         width:100%;
     }
