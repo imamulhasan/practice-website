@@ -1,0 +1,145 @@
+/* body style  */
+
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+/* font style  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* ------------------------------
+       navber styles
+---------------------------------*/
+
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    height: 94px;
+    background-color: #562EFF;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon img{
+    width: 40px;
+}
+.nav-icon a{
+    text-decoration: none;
+    font-size: 24px;
+    color:  #FFFFFF;
+    padding-left: 15px;
+}
+.nav-part-2{
+    display: flex;
+    align-items: center;
+}
+.nav-part-2 a{
+    text-decoration: none;
+    font-size: 14px;
+    color:  #FFFFFF;
+    padding-right: 36px;
+
+}
+hr{
+    width: 807px;
+    border: 1px solid #D1D1D1;
+}
+
+/*-----------------------------
+     nav styel end 
+-------------------------------*/
+/*-----------------------------
+     main part start
+-------------------------------*/
+.container{
+    width: 1200px;
+    background-color: #FFFFFF;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.container h2{
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 80px;
+    color: gray;
+}
+.player-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.player-2-3{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 30px;
+}
+.player-4-5-6{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player img{
+    width: 200px;
+}
+.player h3{
+    font-size: 30px;
+    color: grey ;
+}
+hr{
+    margin-top: 60px;
+}
+/*------------------------
+     main last  part
+---------------------------*/
+.blog-title{
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+.top-blogs{
+    border: 1px solid  #FFFFFF;
+    margin-bottom: 20px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    margin: 50px;
+    
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gainsboro;
+}
+
+.thambnil img{
+    width: 400px;
+}
+.blog-h3{
+    font-size: 30px;
+    /* margin: 30px; */
+    color: gray;
+}
+.blog-h3 p{
+    font-size: 20px;
+    text-align: center;
+}
+.blog-h3 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
