@@ -59,7 +59,7 @@ hr{
      main part start
 -------------------------------*/
 .container{
-    width: 1200px;
+    width: 1400px;
     background-color: #FFFFFF;
     display: block;
     margin: auto;
@@ -105,7 +105,7 @@ hr{
     margin-top: 60px;
 }
 /*------------------------
-     main last  part
+     main middle  part
 ---------------------------*/
 .blog-title{
     margin-top: 0px;
@@ -142,4 +142,59 @@ hr{
     font-size: 20px;
     text-decoration: none;
     color: black;
+}
+
+/*------------------------------------
+            main last part
+--------------------------------------  */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.course{
+    width: 400px;
+    padding-bottom: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+    display: block;
+    margin: auto;
+}
+.banner img{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    width: 90%;
+    height: 200px;
+    
+}
+.course-info{
+   text-align: center;
+}
+.course-info p{
+    color: red;
+}
+.course-rank{
+    display: flex;
+    justify-content: space-around;
+}
+.filled{
+    color: rgb(255, 136, 0);
+}
+.time-duration {
+    border-radius: 14px;
+    background-color: #FFE4E8;
+    padding: 5px;
+}
+.time-duration .fa-clock{
+    color: red;
+}
+.time-duration span{
+    color: red;
+}
+.courses-2{
+margin-top: 40px;
+padding-top: 20px;
+padding-bottom: 60px;
+margin-bottom: 60px;
 }
